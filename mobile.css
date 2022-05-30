@@ -1,0 +1,216 @@
+@media screen and (min-width: 360px) and (max-width: 500px){
+    .header,
+    .content,
+    .grid-content,
+    .afstemning__container{
+        width: 100%;
+    }
+
+    .header{
+        text-align: center;
+        display: block;
+    }
+
+    .heading{
+        font-size: 2.5em;
+    }
+
+    .soMe{
+        display: none;
+    }
+
+    .footer-soMe{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 15px;
+    }
+
+    .grid{
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "tristan victoria"
+            "content content"
+        ;
+        gap: 0;
+        align-items: baseline;
+    }
+
+    .grid-4{
+        grid-template-columns: 1fr;
+    }
+
+    .chestnut{
+        width: 75%;
+    }
+
+    .chestnut__fullBg{
+        background-position: top center;
+        background-size: 322%;
+    }
+
+    .content{
+        /* padding: 15px; */
+        height: auto;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .btn{
+        margin-top: 20px;
+    }
+
+    .afstemning__bg{
+        display: block;
+    }
+
+    .afstemning__container{
+        padding: 15px;
+    }
+    
+    .afstemning__container .grid{
+        height: auto;
+        gap: 10px;
+    }
+
+    .vote{
+        max-width: 178px;
+        height: auto;
+    }
+
+    .vote__img{
+        height: 209px;
+    }
+
+    .modular__content{
+        width: 92%;
+        padding: 15px;
+    }
+
+    .modular__content-close{
+        top: 24px;
+        right: 24px;
+    }
+
+    .inputContainer-field{
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .voteBtn{
+        padding: 10px 30px;
+        width: 100%;
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 1200px){
+    .header,
+    .content,
+    .grid-content,
+    .afstemning__container{
+        width: 100%;
+    }
+
+    .header{
+        text-align: center;
+        display: block;
+    }
+
+    .heading{
+        font-size: 2.5em;
+    }
+
+    .soMe{
+        display: none;
+    }
+
+    .footer-soMe{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 15px;
+    }
+
+    .grid{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+            "tristan victoria"
+            "content content"
+        ;
+        gap: 0;
+        align-items: baseline;
+    }
+
+    .grid-4{
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: none;
+    }
+
+    .chestnut{
+        width: 75%;
+    }
+
+    .chestnut__fullBg{
+        background-position: top center;
+        background-size: 322%;
+    }
+
+    .content{
+        /* padding: 15px; */
+        height: auto;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .btn{
+        margin-top: 20px;
+    }
+
+    .afstemning__bg{
+        display: block;
+    }
+
+    .afstemning__container{
+        padding: 15px;
+    }
+    
+    .afstemning__container .grid{
+        height: auto;
+        gap: 10px;
+    }
+
+    .vote{
+        max-width: 384px;
+        height: auto;
+    }
+
+    .vote__img{
+        height: 453px;
+    }
+
+    .modular__content{
+        width: 92%;
+        padding: 15px;
+    }
+
+    .modular__content-close{
+        top: 24px;
+        right: 24px;
+    }
+
+    .inputContainer-field{
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .voteBtn{
+        padding: 10px 30px;
+        width: 100%;
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 680px) and (max-width: 1200px){
+    .grid-4{
+        grid-template-columns: repeat(4, 1fr);
+    }   
+}
