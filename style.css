@@ -311,6 +311,10 @@ img{
   color: #fff;
 }
 
+.product {
+  font-size: 2em;
+}
+
 /* Footer */
 .lp__footer{
   position: relative;
